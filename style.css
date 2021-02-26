@@ -1,0 +1,95 @@
+@media (max-width: 600px) {
+    h1 {
+        color: yellow;
+    }
+}
+
+body {
+    background-color: grey;
+    padding-top: 50px;
+    margin: 0px;
+    font-family: Helvetica;
+}
+
+nav {
+    background-color: #385e14;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#nav-link {
+    margin: 30px;
+    font-size: 25px;
+}
+
+#nav-link-last {
+    margin: 30px;
+    font-size: 25px;
+    margin-right: 50px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#welcome-section {
+    background-color: #5e1438;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+#projects {
+    background-color: #5e2614;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    flex-direction: column;
+}
+
+#contact-section {
+    background-color: #145c5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#p-survey {
+    background-color: grey;
+    padding: 20px;
+    width: 360px;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+}
+
+#project-link {
+    display: flex;
+    align-items: center;
+    height: 250px;
+    margin-top: 120px;
+}
+
+#profile-link {
+    color: darkblue;
+}
